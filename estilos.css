@@ -88,9 +88,6 @@ li:last-child {
   height: fit-content;
 }
 
-#menu li {
-}
-
 @media screen and (max-width: 800px) {
   .left, .main,  {
     width: 100%;
