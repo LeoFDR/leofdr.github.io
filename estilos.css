@@ -7,17 +7,16 @@ Esto es un comentario en CSS
   box-sizing: border-box;
 }
 
-body{
-   font-family: verdana, helvetica;
+body {
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1%;
   width: 25%;
-  background-color: #f1f1f1;
-  border: 1px solid #555;
+  background-color: #03a9f436;
+  /*border: 1px solid #555; */
   height: 100%; /* Full height */
   position: fixed; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -50,13 +49,27 @@ li:last-child {
   border-radius: 50%;
   margin: auto;
   display: block;
-
 }
 
 .h1 {
-	font-family: Arial;
+  font-family: Roboto;
 	text-align: center;
 	font-size: 2vw;
+}
+
+.h4 {
+  font-family: Roboto;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.p {
+    font-family: Arial;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 1vw;
 }
 
 .left {
@@ -68,15 +81,14 @@ li:last-child {
 }
 
 .main {
-  background-color: #f1f1f1;
-  padding: 20px;
+  background-color: #ffc10773;
+  padding: 1%;
   float: right;
   width: 75%;
-  height: 600px;
+  height: fit-content;
 }
 
 #menu li {
-
 }
 
 @media screen and (max-width: 800px) {
@@ -84,65 +96,3 @@ li:last-child {
     width: 100%;
   }
 }
-
-
-
-/*
-
-#nav{
-   width: 100%;
-}
-
-.titulonav{   
-   border-width: 1px;
-   border-style: solid;
-   border-color: #000000;
-   font-size: 15pt;
-   text-align: center;
-   font-weight: bold;
-   background-color: #999999;
-   color: #ffffff;
-   padding: 4px;
-}
-
-.cuerporec{
-   margin-top: 4px;
-   margin-right: 0pt;
-   margin-bottom: 10px;
-   margin-left: 0pt;
-}
-
-.cuerporec ul{
-   margin-top: 5px;
-   margin-right: 0px;
-   margin-bottom: 20px;
-   margin-left: 0px;
-   padding-top: 0pt;
-   padding-right: 0pt;
-   padding-bottom: 0pt;
-   padding-left: 1px;
-   list-style-type: none;
-   list-style-image: none;
-   list-style-position: outside;
-}
-
-.cuerporec li{
-   border-width: 1px;
-   border-style: solid;
-   border-color: #d7d7d7;
-   padding: 1px 0 2px 2px;
-   font-size: 15pt;
-   padding-bottom: 2px;
-   margin-top: 2px;
-   margin-right: 0pt;
-   margin-bottom: 2px;
-   margin-left: 0pt;
-   background-image: url(fondo_gris.gif);
-}
-
-.cuerporec a{
-   text-decoration: none;
-}
-
-
-*/
