@@ -93,7 +93,7 @@ h2 {
 h3 {
   font-family: Roboto;
   text-align: left;
-  font-size: medium;
+  font-size: 14px;
 }
 
 p {
@@ -104,7 +104,7 @@ p {
     line-height: initial;
     font-size: small;
     text-align: justify;
-    line-height: 180%;
+    line-height: 12px;
 }
 
 li {
@@ -113,5 +113,5 @@ li {
     font-style: normal;
     font-stretch: normal;
     line-height: initial;
-    font-size: small;
+    font-size: 14px;
 } 
