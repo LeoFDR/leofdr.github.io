@@ -10,7 +10,7 @@ Esto es un comentario en CSS
 
 @media screen and (max-width: 800px) {
   .left, .main,  {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -38,9 +38,9 @@ ul {
   width: 25%;
   background-color: hotpink;
   /*border: 1px solid 1555; */
-  height: 100%; /* Full height */
-  position: fixed; /* Make it stick, even on scroll */
-  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  height: 100%;
+  position: fixed; 
+  overflow: auto;
 }
 
 li a {
@@ -81,19 +81,19 @@ li:last-child {
 h1 {
   font-family: Roboto;
 	text-align: center;
-	font-size: 170%;
+	font-size: 18px;
 }
 
-h4 {
+h2 {
   font-family: Roboto;
   text-align: center;
-  font-size: 130%;
+  font-size: 16px;
 }
 
-h5 {
+h3 {
   font-family: Roboto;
   text-align: left;
-  font-size: 120%;
+  font-size: medium;
 }
 
 p {
@@ -102,7 +102,7 @@ p {
     font-style: italic;
     font-stretch: normal;
     line-height: initial;
-    font-size: 100%;
+    font-size: small;
     text-align: justify;
     line-height: 180%;
 }
@@ -113,5 +113,5 @@ li {
     font-style: normal;
     font-stretch: normal;
     line-height: initial;
-    font-size: 1.2vw;
+    font-size: small;
 } 
