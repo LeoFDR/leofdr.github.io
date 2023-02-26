@@ -10,7 +10,7 @@ Esto es un comentario en CSS
 
 @media screen and (max-width: 800px) {
   .left, .main,  {
-    width: 100%;
+    width: 90%;
   }
 }
 
