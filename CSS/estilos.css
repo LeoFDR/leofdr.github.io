@@ -10,7 +10,7 @@ Esto es un comentario en CSS
 
 @media screen and (max-width: 800px) {
   .left, .main,  {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -87,13 +87,13 @@ h1 {
 h2 {
   font-family: Roboto;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h3 {
   font-family: Roboto;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 p {
@@ -102,9 +102,9 @@ p {
     font-style: italic;
     font-stretch: normal;
     line-height: initial;
-    font-size: 12px;
+    font-size: 14px;
     text-align: justify;
-    line-height: 12px;
+    line-height: 30px;
 }
 
 li {
