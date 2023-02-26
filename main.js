@@ -1,4 +1,4 @@
-let sound = new Audio('./MULTIMEDIA/halo.mp3');
+let sound = new Audio('.halo.mp3');
 
 playmp3.addEventListener('click', ()=>{
 	sound.play();
