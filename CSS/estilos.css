@@ -67,6 +67,7 @@ li:last-child {
 }
 
 .foto-circular {
+  width: 200px;
   border-radius: 50%;
   border: 5px solid mediumvioletred;
   margin: auto;
