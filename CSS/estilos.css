@@ -71,6 +71,7 @@ li:last-child {
   border: 5px solid mediumvioletred;
   margin: auto;
   display: block;
+  max-width: 100%;
 }
 
 .contenedor-boton {
